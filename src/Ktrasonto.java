@@ -10,7 +10,7 @@ public class Ktrasonto {
         } else {
             int i = 2;
             boolean check = true;
-            while (i <= Math.sqrt(number)) {
+            while (i <= Math.sqrt(number)) {// Math.sqrt là căn bậc 2
                 if (number % i == 0) {
                     check = false;
                     break;
